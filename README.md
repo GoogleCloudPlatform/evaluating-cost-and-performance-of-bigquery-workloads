@@ -1,6 +1,6 @@
 # Evaluating cost and performance of BigQuery workloads
 
-This guide implements a serverless framework for measuring cost and performance of BigQuery workloads on three different scenarios: on-demand, slots autoscaling, and BI Engine working on top of an on-demand project. This project can be instrumental for quantifying cost of each of setup.
+This is a tutorial for measuring cost and performance of BigQuery workloads on three different scenarios: on-demand, slots autoscaling, and BI Engine working on top of an on-demand project. This project can be instrumental for quantifying cost of each of setup.
 
 ## Architecture
 User launches a Cloud Function that launches a set of Cloud Functions that run against BigQuery. At any given time, the user can query the status of the test to get performance indicators. 
@@ -208,3 +208,6 @@ Click "Close" - in top right
 
 ### Step 10. Explore the data
 In the Looker Studio report that you can crated you can now compare the cost and performance of running your workloads in different setups.
+
+## Disclaimer
+This repository itself is not an officially supported Google product. The code in this repository is for demonstrative purposes only.
